@@ -12,11 +12,11 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class ConnectionClass {
-    String ip = "203.30.236.14";
+    String ip = "192.168.1.110";
     String classs = "net.sourceforge.jtds.jdbc.Driver";
-    String db = "JOGJA BAY - Live";
-    String un = "sa";
-    String password = "Dnn123";
+    String db = "Testing_db";
+    String un = "userbaru";
+    String password = "123456";
 
     @SuppressLint("NewApi")
     public Connection CONN() {
